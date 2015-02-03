@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="verlaengerung" Url="wfsvc/345190db5e9245b5ae29c3a03e82e93e">
+    <File Url="Workflow.xaml" Type="GhostableInLibrary" Path="verlaengerung\Workflow.xaml" DoGUIDFixUp="TRUE">
+      <Property Name="ContentType" Value="WorkflowServiceDefinition" />
+      <Property Name="isReusable" Value="true" />
+      <Property Name="RequiresInitiationForm" Value="False" />
+      <Property Name="RequiresAssociationForm" Value="False" />
+      <Property Name="WSPublishState" Value="3" />
+      <Property Name="WSDisplayName" Value="verlaengerung" />
+      <Property Name="WSDescription" Value="Mein 'temp'-Workflow" />
+      <!-- Denken Sie beim Ändern des Namens oder der URL des benutzerdefinierten Initiierungs- oder Zuordnungsformulars daran, 
+           den entsprechenden Eigenschaftenwert (InitiationUrl oder AssociationUrl) zu aktualisieren, um die neue Web-relative URL abzugleichen.
+      -->
+      <Property Name="RestrictToType" Value="List" />
+      <Property Name="RestrictToScope" Value="{$ListId:Lists/List1;}" />
+    </File>
+    <File Url="WorkflowStartAssociation" Path="temp\WorkflowStartAssociation" Type="GhostableInLibrary">
+      <Property Name="WSDisplayName" Value="verlaengerung" />
+      <Property Name="ContentType" Value="WorkflowServiceSubscription" />
+      <Property Name="WSPublishState" Value="3" />
+      <Property Name="WSEventType" Value="WorkflowStart" />
+      <Property Name="WSEnabled" Value="true" />
+      <Property Name="WSGUID" Value="fc533732-ccd9-4b56-9d4f-ab345ab16989" />
+      <Property Name="WSEventSourceGUID" Value="{$ListId:Lists/List1;}" />
+      <Property Name="Microsoft.SharePoint.ActivationProperties.ListId" Value="{$ListId:Lists/List1;}" />
+      <Property Name="HistoryListId" Value="{$ListId:Lists/WorkflowHistoryList;}" />
+      <Property Name="TaskListId" Value="{$ListId:Lists/Todo;}" />
+    </File>
+  </Module>
+  <ListInstance FeatureId="{2c63df2b-ceab-42c6-aeff-b3968162d4b1}"
+                TemplateType="4501"
+                Title="wfsvc"
+                Description="This list instance is used by SharePoint to keep track of workflows. Do not modify."
+                Url="wfsvc"
+                RootWebOnly="FALSE" />
+</Elements>

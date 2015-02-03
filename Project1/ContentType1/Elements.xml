@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Übergeordneter ContentType: Workflowaufgabe (SharePoint 2013) (0x0108003365C4474CAE8C42BCE396314E88E51F) -->
+  <ContentType ID="0x0108003365C4474CAE8C42BCE396314E88E51F00905416B323CF4AAE921429C736B73D73" Name="ContentType1" Group="$Resources:_FeatureId57311b7a-9afd-4ff0-866e-9393ad6647b1,ContentType_Group;" Description="Mein Inhaltstyp" Inherits="TRUE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{566656F5-17B3-4291-98A5-5074AADF77B3}" DisplayName="$Resources:core,User_Field_1_OL;" Required="TRUE" Name="UserField1" Sealed="TRUE" />
+      <FieldRef ID="{29a31dcf-43f1-4b81-b288-ee6284e71e7c}" DisplayName="Site Column 1" Required="FALSE" Name="SiteColumn1" />
+      <FieldRef ID="{d2311440-1ed6-46ea-b46d-daa643dc3886}" DisplayName="$Resources:core,Percent_Complete;" Name="PercentComplete" />
+      <FieldRef ID="{55B29417-1042-47F0-9DFF-CE8156667F96}" DisplayName="$Resources:_FeatureId57311b7a-9afd-4ff0-866e-9393ad6647b1,TaskOutcomeField_DisplayName;" Name="TaskOutcome" Sealed="FALSE" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

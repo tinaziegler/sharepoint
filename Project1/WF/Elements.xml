@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="WF" Url="wfsvc/94eb6b11a6f848398f455d51bd59d11f">
+    <File Url="WF.xaml" Type="GhostableInLibrary" Path="WF\WF.xaml" DoGUIDFixUp="TRUE">
+      <Property Name="ContentType" Value="WorkflowServiceDefinition" />
+      <Property Name="isReusable" Value="true" />
+      <Property Name="RequiresInitiationForm" Value="False" />
+      <Property Name="RequiresAssociationForm" Value="False" />
+      <Property Name="WSPublishState" Value="3" />
+      <Property Name="WSDisplayName" Value="WF" />
+      <Property Name="WSDescription" Value="Mein 'WF'-Workflow" />
+      <!-- Denken Sie beim Ändern des Namens oder der URL des benutzerdefinierten Initiierungs- oder Zuordnungsformulars daran, 
+           den entsprechenden Eigenschaftenwert (InitiationUrl oder AssociationUrl) zu aktualisieren, um die neue Web-relative URL abzugleichen.
+      -->
+      <Property Name="RestrictToType" Value="List" />
+      <Property Name="RestrictToScope" Value="{$ListId:Lists/List1;}" />
+      <Property Name="AssociationUrl" Value="wfsvc/94eb6b11a6f848398f455d51bd59d11f/WF/AssociationForm1.aspx" />
+    </File>
+    <File Url="WorkflowStartAssociation" Path="WF\WorkflowStartAssociation" Type="GhostableInLibrary">
+      <Property Name="WSDisplayName" Value="WF - Workflowstart" />
+      <Property Name="ContentType" Value="WorkflowServiceSubscription" />
+      <Property Name="WSPublishState" Value="3" />
+      <Property Name="WSEventType" Value="WorkflowStart" />
+      <Property Name="WSEnabled" Value="true" />
+      <Property Name="WSGUID" Value="dc38c9af-c7f8-49f2-b606-0d6b7fe6ef4a" />
+      <Property Name="WSEventSourceGUID" Value="{$ListId:Lists/List1;}" />
+      <Property Name="Microsoft.SharePoint.ActivationProperties.ListId" Value="{$ListId:Lists/List1;}" />
+      <Property Name="HistoryListId" Value="{$ListId:Lists/WorkflowHistoryList;}" />
+      <Property Name="TaskListId" Value="{$ListId:Lists/Todo;}" />
+      <Property Name="RestrictToScope" Value="{$ListId:Lists/List1;}" />
+    </File>
+  </Module>
+  <ListInstance FeatureId="{2c63df2b-ceab-42c6-aeff-b3968162d4b1}"
+                TemplateType="4501"
+                Title="wfsvc"
+                Description="This list instance is used by SharePoint to keep track of workflows. Do not modify."
+                Url="wfsvc"
+                RootWebOnly="FALSE" />
+  <ListInstance FeatureId="{cd574c6c-b362-4c83-937f-1eb7c5e02202}"
+                TemplateType="171"
+                Title="WorkflowTaskList"
+                Url="Lists/Todo"
+                RootWebOnly="FALSE"/>
+            <!--   <ContentTypeBinding
+                  ListUrl="Lists/Todo"
+                  RootWebOnly="FALSE"
+                  ContentTypeId="0x0108003365C4474CAE8C42BCE396314E88E51F005E86062FEF1B4F37887AF67041C12FA9"
+                  />-->
+                
+</Elements>

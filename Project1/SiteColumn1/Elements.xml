@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{29a31dcf-43f1-4b81-b288-ee6284e71e7c}"
+       Name="SiteColumn1"
+       DisplayName="Site Column 1"
+       Type="Choice"
+       Required="FALSE"
+       Group="Custom Site Columns">
+       <CHOICES>
+         <CHOICE>Submit</CHOICE>
+         <CHOICE>Delete</CHOICE>
+       </CHOICES>
+  </Field>
+</Elements>
