@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="WF_1" Url="wfsvc/733096917dff4f659c020057af65b7b4">
+    <File Url="Workflow.xaml" Type="GhostableInLibrary" Path="WF_1\Workflow.xaml" DoGUIDFixUp="TRUE">
+      <Property Name="ContentType" Value="WorkflowServiceDefinition" />
+      <Property Name="isReusable" Value="true" />
+      <Property Name="RequiresInitiationForm" Value="False" />
+      <Property Name="RequiresAssociationForm" Value="False" />
+      <Property Name="WSPublishState" Value="3" />
+      <Property Name="WSDisplayName" Value="WF_1" />
+      <Property Name="WSDescription" Value="Mein 'WF_1'-Workflow" />
+      <!-- Denken Sie beim Ändern des Namens oder der URL des benutzerdefinierten Initiierungs- oder Zuordnungsformulars daran, 
+           den entsprechenden Eigenschaftenwert (InitiationUrl oder AssociationUrl) zu aktualisieren, um die neue Web-relative URL abzugleichen.
+      -->
+      <Property Name="RestrictToType" Value="List" />
+      <Property Name="RestrictToScope" Value="{$ListId:Lists/List1;}" />
+    </File>
+    <File Url="WorkflowStartAssociation" Path="WF_1\WorkflowStartAssociation" Type="GhostableInLibrary">
+      <Property Name="WSDisplayName" Value="WF_1 - Workflowstart" />
+      <Property Name="ContentType" Value="WorkflowServiceSubscription" />
+      <Property Name="WSPublishState" Value="3" />
+      <Property Name="WSEventType" Value="WorkflowStart" />
+      <Property Name="WSEnabled" Value="true" />
+      <Property Name="WSGUID" Value="516297a9-d6a1-4d86-af12-3e93eb730668" />
+      <Property Name="WSEventSourceGUID" Value="{$ListId:Lists/List1;}" />
+      <Property Name="Microsoft.SharePoint.ActivationProperties.ListId" Value="{$ListId:Lists/List1;}" />
+      <Property Name="HistoryListId" Value="{$ListId:Lists/WorkflowHistoryList;}" />
+      <Property Name="TaskListId" Value="{$ListId:Lists/Todo;}" />
+    </File>
+    <File Url="ItemAddedAssociation" Path="WF_1\ItemAddedAssociation" Type="GhostableInLibrary">
+      <Property Name="WSDisplayName" Value="WF_1 - Hinzugefügtes Element" />
+      <Property Name="ContentType" Value="WorkflowServiceSubscription" />
+      <Property Name="WSPublishState" Value="3" />
+      <Property Name="WSEventType" Value="ItemAdded" />
+      <Property Name="WSEnabled" Value="true" />
+      <Property Name="WSGUID" Value="603c5207-11fe-4d72-ab9d-08d36f513282" />
+      <Property Name="WSEventSourceGUID" Value="{$ListId:Lists/List1;}" />
+      <Property Name="Microsoft.SharePoint.ActivationProperties.ListId" Value="{$ListId:Lists/List1;}" />
+      <Property Name="HistoryListId" Value="{$ListId:Lists/WorkflowHistoryList;}" />
+      <Property Name="TaskListId" Value="{$ListId:Lists/Todo;}" />
+    </File>
+  </Module>
+  <ListInstance FeatureId="{2c63df2b-ceab-42c6-aeff-b3968162d4b1}"
+                TemplateType="4501"
+                Title="wfsvc"
+                Description="This list instance is used by SharePoint to keep track of workflows. Do not modify."
+                Url="wfsvc"
+                RootWebOnly="FALSE" />
+</Elements>

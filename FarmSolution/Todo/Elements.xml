@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <!-- Ändern Sie nicht den Wert des Namensattributs unten. Wenn der Name nicht mit dem Ordnernamen des Listenprojektelements übereinstimmt, tritt bei der Ausführung des Projekts ein Fehler auf. -->
+    <ListTemplate
+        Name="Todo"
+        Type="171"
+        BaseType="0"
+        OnQuickLaunch="TRUE"
+        SecurityBits="11"
+        Sequence="360"
+        DisplayName="Todo"
+        Description="Meine Listendefinition"
+        Image="/_layouts/15/images/ittask.png"/>
+</Elements>
