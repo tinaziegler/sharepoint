@@ -2,27 +2,22 @@
 <List xmlns:ows="Microsoft SharePoint" Title="zumansehen" FolderCreation="FALSE" Direction="$Resources:Direction;" EnableContentTypes="TRUE" Url="Lists/zumansehen" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
   <MetaData>
     <ContentTypes>
-     <ContentTypeRef ID="0x0108">
+     
+      
+    <ContentTypeRef ID="0x0108">
         <Folder TargetName="Task" />
-      </ContentTypeRef>
-      <ContentType ID="0x01080029E624170A2D4A309EAC3C3C57FBF690" Name="Task_CT2" Group="Benutzerdefinierte Inhaltstypen" Description="Mein Inhaltstyp" Inherits="TRUE" Version="0">
-        <FieldRefs>
-          <FieldRef ID="{82642ec8-ef9b-478f-acf9-31f7d45fbc31}" DisplayName="$Resources:core,Title;" Name="LinkTitle" ReadOnly="TRUE" />
-          <FieldRef ID="{bc91a437-52e7-49e1-8c4e-4698904b2b6d}" DisplayName="$Resources:core,Title;" Name="LinkTitleNoMenu" ReadOnly="TRUE" />
-          <FieldRef ID="{a8eb573e-9e11-481a-a8c9-1104a54b2fbd}" DisplayName="$Resources:core,Priority;" Name="Priority" />
-          <FieldRef ID="{c15b34c3-ce7d-490a-b133-3f4de8801b76}" DisplayName="$Resources:core,TaskStatus;" Name="TaskStatus" />
-          <FieldRef ID="{d2311440-1ed6-46ea-b46d-daa643dc3886}" DisplayName="$Resources:core,Percent_Complete;" Name="PercentComplete" />
-          <FieldRef ID="{53101f38-dd2e-458c-b245-0c236cc13d1a}" DisplayName="$Resources:core,Assigned_To;" Name="AssignedTo" />
-          <FieldRef ID="{64cd368d-2f95-4bfc-a1f9-8d4324ecb007}" DisplayName="$Resources:core,Start_Date;" Name="StartDate" Format="DateOnly" />
-          <FieldRef ID="{cd21b4c2-6841-4f9e-a23a-738a65f99889}" DisplayName="$Resources:core,Due_Date;" Name="TaskDueDate" Format="DateOnly" />
-          <FieldRef ID="{FD447DB5-3908-4b47-8F8C-A5895ED0AA6A}" DisplayName="$Resources:core,Parent_ID;" Required="FALSE" Hidden="TRUE" Name="ParentID" />
-          <FieldRef ID="{55B29417-1042-47F0-9DFF-CE8156667F96}" DisplayName="$Resources:_FeatureId57311b7a-9afd-4ff0-866e-9393ad6647b1,TaskOutcomeField_DisplayName;" Name="TaskOutcome" Sealed="FALSE" />
-          <FieldRef ID="{566656F5-17B3-4291-98A5-5074AADF77B3}" DisplayName="Zweitgutachter_CT" Name="UserField1" Sealed="TRUE" />
-        </FieldRefs>
-      </ContentType>
-    </ContentTypes>
+      </ContentTypeRef></ContentTypes>
     <Fields>    
-    <Field Name="LinkTitle" ID="{82642ec8-ef9b-478f-acf9-31f7d45fbc31}" DisplayName="$Resources:core,Task_Name;" Sealed="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="LinkTitle" Type="Computed" /><Field Name="LinkTitleNoMenu" ID="{bc91a437-52e7-49e1-8c4e-4698904b2b6d}" DisplayName="$Resources:core,Task_Name;" Sealed="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="LinkTitleNoMenu" Type="Computed" /><Field Name="Title" ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" DisplayName="$Resources:core,Task_Name;" Sealed="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" Type="Text" /><Field ID="{c3a92d97-2b77-4a25-9698-3ab54874bc6f}" Name="Predecessors" Type="LookupMulti" Mult="TRUE" Required="FALSE" DisplayName="$Resources:core,Tasks_Predecessors;" StaticName="Predecessors" List="Self" ShowField="Title" DisplaceOnUpgrade="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3"></Field><Field ID="{a8eb573e-9e11-481a-a8c9-1104a54b2fbd}" Type="Choice" Name="Priority" DisplayName="$Resources:core,Priority;" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Priority">
+    
+      
+      
+      
+      
+      
+      
+      
+      
+      <Field Name="LinkTitle" ID="{82642ec8-ef9b-478f-acf9-31f7d45fbc31}" DisplayName="$Resources:core,Task_Name;" Sealed="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="LinkTitle" Type="Computed" /><Field Name="LinkTitleNoMenu" ID="{bc91a437-52e7-49e1-8c4e-4698904b2b6d}" DisplayName="$Resources:core,Task_Name;" Sealed="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="LinkTitleNoMenu" Type="Computed" /><Field Name="Title" ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" DisplayName="$Resources:core,Task_Name;" Sealed="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" Type="Text" /><Field ID="{c3a92d97-2b77-4a25-9698-3ab54874bc6f}" Name="Predecessors" Type="LookupMulti" Mult="TRUE" Required="FALSE" DisplayName="$Resources:core,Tasks_Predecessors;" StaticName="Predecessors" List="Self" ShowField="Title" DisplaceOnUpgrade="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3"></Field><Field ID="{a8eb573e-9e11-481a-a8c9-1104a54b2fbd}" Type="Choice" Name="Priority" DisplayName="$Resources:core,Priority;" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Priority">
         <CHOICES> 
         <CHOICE>$Resources:core,Priority_High;</CHOICE><CHOICE>$Resources:core,Priority_Normal;</CHOICE><CHOICE>$Resources:core,Priority_Low;</CHOICE></CHOICES>
         <MAPPINGS>
@@ -44,21 +39,12 @@
         <Default>$Resources:core,Tasks_NotStarted;</Default>
       </Field><Field Type="Number" Name="PercentComplete" ID="{d2311440-1ed6-46ea-b46d-daa643dc3886}" Percentage="TRUE" Min="0" Max="1" DisplayName="$Resources:core,Percent_Complete;" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="PercentComplete">
         <Default>0</Default>
-      </Field><Field ID="{53101f38-dd2e-458c-b245-0c236cc13d1a}" Type="UserMulti" List="UserInfo" Name="AssignedTo" Mult="TRUE" Sortable="FALSE" ShowField="ImnName" DisplayName="$Resources:core,Assigned_To;" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="AssignedTo"></Field>
-      <Field ID="{7662cd2c-f069-4dba-9e35-082cf976e170}" Type="Note" RichText="TRUE" RestrictedMode="TRUE" RichTextMode="FullHtml" Name="Body" DisplayName="$Resources:core,Description;" Sortable="FALSE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Body"></Field>
-      <Field ID="{64cd368d-2f95-4bfc-a1f9-8d4324ecb007}" Type="DateTime" Name="StartDate" DisplayName="$Resources:core,Start_Date;" Format="DateOnly" FriendlyDisplayFormat="Relative" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="StartDate"></Field>
-      <Field Type="DateTime" ID="{cd21b4c2-6841-4f9e-a23a-738a65f99889}" Name="DueDate" DisplayName="$Resources:core,Due_Date;" Format="DateOnly" FriendlyDisplayFormat="Relative" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="DueDate"></Field>
-      <Field Type="Lookup" Indexed="TRUE" Name="ParentID" ID="{fd447db5-3908-4b47-8f8c-a5895ed0aa6a}" Hidden="TRUE" Required="FALSE" List="Self" RelationshipDeleteBehavior="Cascade" ShowField="ID" DisplayName="$Resources:core,Parent_ID;" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="ParentID"></Field>
-      <Field Type="Calculated" Name="Checkmark" ID="{ebf1c037-47eb-4355-998d-47ce9f2cc047}" Required="FALSE" ResultType="Boolean" ReadOnly="TRUE" DisplayName="$Resources:core,Check_Mark_Field;" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Checkmark">
+      </Field><Field ID="{53101f38-dd2e-458c-b245-0c236cc13d1a}" Type="UserMulti" List="UserInfo" Name="AssignedTo" Mult="TRUE" Sortable="FALSE" ShowField="ImnName" DisplayName="$Resources:core,Assigned_To;" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="AssignedTo"></Field><Field ID="{7662cd2c-f069-4dba-9e35-082cf976e170}" Type="Note" RichText="TRUE" RestrictedMode="TRUE" RichTextMode="FullHtml" Name="Body" DisplayName="$Resources:core,Description;" Sortable="FALSE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Body"></Field><Field ID="{64cd368d-2f95-4bfc-a1f9-8d4324ecb007}" Type="DateTime" Name="StartDate" DisplayName="$Resources:core,Start_Date;" Format="DateOnly" FriendlyDisplayFormat="Relative" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="StartDate"></Field><Field Type="DateTime" ID="{cd21b4c2-6841-4f9e-a23a-738a65f99889}" Name="DueDate" DisplayName="$Resources:core,Due_Date;" Format="DateOnly" FriendlyDisplayFormat="Relative" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="DueDate"></Field><Field Type="Lookup" Indexed="TRUE" Name="ParentID" ID="{fd447db5-3908-4b47-8f8c-a5895ed0aa6a}" Hidden="TRUE" Required="FALSE" List="Self" RelationshipDeleteBehavior="Cascade" ShowField="ID" DisplayName="$Resources:core,Parent_ID;" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="ParentID"></Field><Field Type="Calculated" Name="Checkmark" ID="{ebf1c037-47eb-4355-998d-47ce9f2cc047}" Required="FALSE" ResultType="Boolean" ReadOnly="TRUE" DisplayName="$Resources:core,Check_Mark_Field;" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Checkmark">
         <Formula>=PercentComplete&gt;=1</Formula>
         <FieldRefs>
           <FieldRef Name="PercentComplete" />
         </FieldRefs>
-      </Field>
-      <Field Type="RelatedItems" Name="RelatedItems" ID="{d2a04afc-9a05-48c8-a7fa-fa98f9496141}" ShowInDisplayForm="TRUE" ShowInNewForm="FALSE" ShowInEditForm="FALSE" DisplayName="$Resources:core,Related_Links_Field;" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="RelatedItems"></Field>
-      <Field Type="UserMulti" List="UserInfo" ID="{1982e408-0f94-4149-8349-16f301d89134}" Name="PreviouslyAssignedTo" Mult="TRUE" Hidden="TRUE" DisplayName="$Resources:core,Previously_Assigned_To_Field;" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="PreviouslyAssignedTo"></Field>
-      <Field ID="{55B29417-1042-47F0-9DFF-CE8156667F96}" DisplayName="$Resources:_FeatureId57311b7a-9afd-4ff0-866e-9393ad6647b1,TaskOutcomeField_DisplayName;" Name="TaskOutcome" Type="OutcomeChoice" Sealed="FALSE"><CHOICES><CHOICE>$Resources:_FeatureId57311b7a-9afd-4ff0-866e-9393ad6647b1,TaskOutcomeField_Approved;</CHOICE><CHOICE>$Resources:_FeatureId57311b7a-9afd-4ff0-866e-9393ad6647b1,TaskOutcomeField_Rejected;</CHOICE></CHOICES></Field>
-      <Field ID="{566656F5-17B3-4291-98A5-5074AADF77B3}" Name="UserField1" StaticName="UserField1" SourceID="http://schemas.microsoft.com/sharepoint/v3" DisplayName="Zweitgutachter_CT" Group="$Resources:core,Person_Event_Columns;" Type="Text" Sealed="TRUE" AllowDeletion="TRUE" /></Fields>
+      </Field><Field Type="RelatedItems" Name="RelatedItems" ID="{d2a04afc-9a05-48c8-a7fa-fa98f9496141}" ShowInDisplayForm="TRUE" ShowInNewForm="FALSE" ShowInEditForm="FALSE" DisplayName="$Resources:core,Related_Links_Field;" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="RelatedItems"></Field><Field Type="UserMulti" List="UserInfo" ID="{1982e408-0f94-4149-8349-16f301d89134}" Name="PreviouslyAssignedTo" Mult="TRUE" Hidden="TRUE" DisplayName="$Resources:core,Previously_Assigned_To_Field;" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="PreviouslyAssignedTo"></Field><Field ID="{55B29417-1042-47F0-9DFF-CE8156667F96}" DisplayName="$Resources:_FeatureId57311b7a-9afd-4ff0-866e-9393ad6647b1,TaskOutcomeField_DisplayName;" Name="TaskOutcome" Type="OutcomeChoice" Sealed="FALSE"><CHOICES><CHOICE>$Resources:_FeatureId57311b7a-9afd-4ff0-866e-9393ad6647b1,TaskOutcomeField_Approved;</CHOICE><CHOICE>$Resources:_FeatureId57311b7a-9afd-4ff0-866e-9393ad6647b1,TaskOutcomeField_Rejected;</CHOICE></CHOICES></Field><Field ID="{566656F5-17B3-4291-98A5-5074AADF77B3}" Name="UserField1" StaticName="UserField1" SourceID="http://schemas.microsoft.com/sharepoint/v3" DisplayName="Zweitgutachter_CT" Group="$Resources:core,Person_Event_Columns;" Type="Text" Sealed="TRUE" AllowDeletion="TRUE" /></Fields>
     <Views>
       
       

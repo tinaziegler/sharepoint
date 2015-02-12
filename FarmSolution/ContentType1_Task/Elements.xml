@@ -3,11 +3,10 @@
   <!-- Übergeordneter ContentType: Workflowaufgabe (SharePoint 2013) (0x0108003365C4474CAE8C42BCE396314E88E51F) -->
   <ContentType ID="0x0108003365C4474CAE8C42BCE396314E88E51F00A7B92F75286A43238E6317E484C60CFB" Name="ContentType1_Task" Group="Benutzerdefinierte Inhaltstypen" Description="Mein Inhaltstyp" Inherits="TRUE" Version="0">
     <FieldRefs>
-      <FieldRef ID="{566656F5-17B3-4291-98A5-5074AADF77B3}" DisplayName="Gutachter" Name="UserField1" Sealed="TRUE" />
-      <FieldRef ID="{d2311440-1ed6-46ea-b46d-daa643dc3886}" DisplayName="$Resources:core,Percent_Complete;" Name="PercentComplete" />
-      <FieldRef ID="{c15b34c3-ce7d-490a-b133-3f4de8801b76}" DisplayName="$Resources:core,TaskStatus;" Name="TaskStatus" />
-      <FieldRef ID="{bc91a437-52e7-49e1-8c4e-4698904b2b6d}" DisplayName="$Resources:core,Title;" Name="LinkTitleNoMenu" ReadOnly="TRUE" />
-      <FieldRef ID="{82642ec8-ef9b-478f-acf9-31f7d45fbc31}" DisplayName="$Resources:core,Title;" Name="LinkTitle" ReadOnly="TRUE" />
+      <FieldRef ID="{566656F5-17B3-4291-98A5-5074AADF77B3}" DisplayName="Gutachter" Name="UserField1" Sealed="TRUE" Required="FALSE" />
+      <FieldRef ID="{c15b34c3-ce7d-490a-b133-3f4de8801b76}" ReadOnly="TRUE" DisplayName="$Resources:core,TaskStatus;" Name="TaskStatus" />
+      <FieldRef ID="{182D1B9E-1718-4e11-B279-38F7ED0A20D6}" DisplayName="Wunschraum" Name="UserField2" Sealed="TRUE" />
+      <FieldRef ID="{A03EB53E-F123-4af9-9355-F92BD75C00B3}" DisplayName="Vorsitzender" Name="UserField3" Sealed="TRUE" />
       <FieldRef ID="{55B29417-1042-47F0-9DFF-CE8156667F96}" DisplayName="$Resources:_FeatureId57311b7a-9afd-4ff0-866e-9393ad6647b1,TaskOutcomeField_DisplayName;" Name="TaskOutcome" Sealed="FALSE" />
     </FieldRefs>
   </ContentType>

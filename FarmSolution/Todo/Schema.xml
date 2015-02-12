@@ -8,9 +8,9 @@
     
       
       
-    <ContentType ID="0x0108003365C4474CAE8C42BCE396314E88E51F00A7B92F75286A43238E6317E484C60CFB" Name="ContentType1_Task" Group="Benutzerdefinierte Inhaltstypen" Description="Mein Inhaltstyp" Inherits="TRUE" Version="0"><FieldRefs><FieldRef ID="{566656F5-17B3-4291-98A5-5074AADF77B3}" DisplayName="Gutachter" Name="UserField1" Sealed="TRUE" /><FieldRef ID="{d2311440-1ed6-46ea-b46d-daa643dc3886}" DisplayName="$Resources:core,Percent_Complete;" Name="PercentComplete" /><FieldRef ID="{c15b34c3-ce7d-490a-b133-3f4de8801b76}" DisplayName="$Resources:core,TaskStatus;" Name="TaskStatus" /></FieldRefs></ContentType><ContentTypeRef ID="0x0108">
+    <ContentType ID="0x0108003365C4474CAE8C42BCE396314E88E51F00A7B92F75286A43238E6317E484C60CFB" Name="ContentType1_Task" Group="Benutzerdefinierte Inhaltstypen" Description="Mein Inhaltstyp" Inherits="TRUE" Version="0"><FieldRefs><FieldRef ID="{566656F5-17B3-4291-98A5-5074AADF77B3}" DisplayName="Gutachter" Name="UserField1" Sealed="TRUE" Required="FALSE" /><FieldRef ID="{c15b34c3-ce7d-490a-b133-3f4de8801b76}" ReadOnly="TRUE" DisplayName="$Resources:core,TaskStatus;" Name="TaskStatus" /><FieldRef ID="{182D1B9E-1718-4e11-B279-38F7ED0A20D6}" DisplayName="Wunschraum" Name="UserField2" Sealed="TRUE" /><FieldRef ID="{A03EB53E-F123-4af9-9355-F92BD75C00B3}" DisplayName="Vorsitzender" Name="UserField3" Sealed="TRUE" /><FieldRef ID="{55B29417-1042-47F0-9DFF-CE8156667F96}" DisplayName="$Resources:_FeatureId57311b7a-9afd-4ff0-866e-9393ad6647b1,TaskOutcomeField_DisplayName;" Name="TaskOutcome" Sealed="FALSE" /></FieldRefs></ContentType><ContentTypeRef ID="0x0108003365C4474CAE8C42BCE396314E88E51F" /><ContentTypeRef ID="0x0108">
         <Folder TargetName="Task" />
-      </ContentTypeRef><ContentTypeRef ID="0x0108003365C4474CAE8C42BCE396314E88E51F" /></ContentTypes>
+      </ContentTypeRef></ContentTypes>
     <Fields>      
     
       
@@ -50,7 +50,7 @@
       </Field><Field Type="RelatedItems" Name="RelatedItems" ID="{d2a04afc-9a05-48c8-a7fa-fa98f9496141}" ShowInDisplayForm="TRUE" ShowInNewForm="FALSE" ShowInEditForm="FALSE" DisplayName="$Resources:core,Related_Links_Field;" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="RelatedItems"></Field><Field Type="UserMulti" List="UserInfo" ID="{1982e408-0f94-4149-8349-16f301d89134}" Name="PreviouslyAssignedTo" Mult="TRUE" Hidden="TRUE" DisplayName="$Resources:core,Previously_Assigned_To_Field;" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="PreviouslyAssignedTo"></Field><Field ID="{55B29417-1042-47F0-9DFF-CE8156667F96}" DisplayName="$Resources:_FeatureId57311b7a-9afd-4ff0-866e-9393ad6647b1,TaskOutcomeField_DisplayName;" Name="TaskOutcome" Type="OutcomeChoice" Sealed="FALSE">
         <CHOICES>
         <CHOICE>$Resources:_FeatureId57311b7a-9afd-4ff0-866e-9393ad6647b1,TaskOutcomeField_Approved;</CHOICE><CHOICE>$Resources:_FeatureId57311b7a-9afd-4ff0-866e-9393ad6647b1,TaskOutcomeField_Rejected;</CHOICE></CHOICES>
-      </Field><Field ID="{1F30D200-0D4E-4C8A-A7EB-2E49815BF2BE}" DisplayName="$Resources:_FeatureId57311b7a-9afd-4ff0-866e-9393ad6647b1,WF4InstanceField_DisplayName;" Name="WF4InstanceId" Type="Text" Group="_Hidden" Hidden="TRUE" Sealed="TRUE" /><Field ID="{566656F5-17B3-4291-98A5-5074AADF77B3}" Name="UserField1" StaticName="UserField1" SourceID="http://schemas.microsoft.com/sharepoint/v3" DisplayName="Gutachter" Group="$Resources:core,Person_Event_Columns;" Type="Text" Sealed="TRUE" AllowDeletion="TRUE" /></Fields>
+      </Field><Field ID="{1F30D200-0D4E-4C8A-A7EB-2E49815BF2BE}" DisplayName="$Resources:_FeatureId57311b7a-9afd-4ff0-866e-9393ad6647b1,WF4InstanceField_DisplayName;" Name="WF4InstanceId" Type="Text" Group="_Hidden" Hidden="TRUE" Sealed="TRUE" /><Field ID="{566656F5-17B3-4291-98A5-5074AADF77B3}" Name="UserField1" StaticName="UserField1" SourceID="http://schemas.microsoft.com/sharepoint/v3" DisplayName="Gutachter" Group="$Resources:core,Person_Event_Columns;" Type="Text" Sealed="TRUE" AllowDeletion="TRUE" /><Field ID="{182D1B9E-1718-4e11-B279-38F7ED0A20D6}" Name="UserField2" StaticName="UserField2" SourceID="http://schemas.microsoft.com/sharepoint/v3" DisplayName="Wunschraum" Group="$Resources:core,Person_Event_Columns;" Type="Text" Sealed="TRUE" AllowDeletion="TRUE" /><Field ID="{A03EB53E-F123-4af9-9355-F92BD75C00B3}" Name="UserField3" StaticName="UserField3" SourceID="http://schemas.microsoft.com/sharepoint/v3" DisplayName="Vorsitzender" Group="$Resources:core,Person_Event_Columns;" Type="Text" Sealed="TRUE" AllowDeletion="TRUE" /></Fields>
     <Views>
 
 
@@ -106,7 +106,7 @@
         <JSLink>clienttemplates.js</JSLink>
         <RowLimit Paged="TRUE">100</RowLimit>
         <ViewFields>
-        <FieldRef Name="Checkmark"></FieldRef><FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="DueDate"></FieldRef><FieldRef Name="AssignedTo"></FieldRef><FieldRef Name="TaskOutcome" /><FieldRef Name="UserField1" /></ViewFields>
+        <FieldRef Name="Checkmark"></FieldRef><FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="DueDate"></FieldRef><FieldRef Name="AssignedTo"></FieldRef><FieldRef Name="TaskOutcome" /><FieldRef Name="UserField1" /><FieldRef Name="UserField2" /><FieldRef Name="UserField3" /></ViewFields>
         <ViewData>
           <FieldRef Name="PercentComplete" Type="StrikeThroughPercentComplete"></FieldRef>
           <FieldRef Name="DueDate" Type="TimelineDueDate"></FieldRef>

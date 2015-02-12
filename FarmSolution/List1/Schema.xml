@@ -5,7 +5,10 @@
 
 
 
-      <ContentType ID="0x0100d1788736c98646c49f1b0abe3bd50bb9" Name="ListFieldsContentType">
+      
+      
+      
+    <ContentType ID="0x0100ffd82ad7477641708a166bd02fe6d125" Name="ListFieldsContentType1"><FieldRefs><FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" /><FieldRef ID="{924fe570-b882-4756-9b1f-b0d8b20c142e}" Name="wunschbetreuer" /><FieldRef ID="{f45d21a5-50f0-4c3c-a2d8-b7640c1c2c0d}" Name="kurzbeschreibung" /><FieldRef ID="{37aead8c-b9d0-40ee-9840-f9a547e3a203}" Name="ausgabedatum_x0028_wunsch_x0029_" /><FieldRef ID="{e7483c10-296e-4db7-85af-c6a0944c6e6d}" Name="abgabedatum" /><FieldRef ID="{a9550c53-4149-41da-b8ab-7fc5b584d117}" Name="_x00f6_ffentlich_x003f_" /><FieldRef ID="{376f9451-d016-46c8-a94a-8b54258525e9}" Name="Voraussetzungenerf_x00fc_llt" /><FieldRef ID="{b42b1c72-cd89-41b3-a9a5-5d99f0022210}" Name="Zweitgutachter" /><FieldRef ID="{8C66E340-0985-4d68-AF03-3050ECE4862B}" Name="HomeAddressStreet" /><FieldRef ID="{C0E4B4C6-6245-4846-8561-B8C6C01FEFC1}" Name="HomeAddressPostalCode" /><FieldRef ID="{5AEABC56-57C6-4861-BC12-BD72C30FC6BD}" Name="HomeAddressCity" /><FieldRef ID="{038D1503-4629-40f6-ADAF-B47D1AB2D4FE}" Name="Company" /><FieldRef ID="{dd68a28f-b6fc-4ffe-9d59-cd0e7f19d449}" Name="Firmenanschrift" /><FieldRef ID="{bec162fa-cbb0-4d66-90ca-e6f1636e493f}" Name="Ansprechpartner" /><FieldRef ID="{4c5fe4f4-dcaa-467d-9485-da1573f31ee8}" Name="date" /><FieldRef ID="{bd765637-9bc9-4f1b-9a91-e7bef14113e0}" Name="Status" /><FieldRef ID="{edce8ce5-e1d9-4f9d-be8f-4b16b6d4e48b}" Name="betreut" /><FieldRef ID="{b9f671ab-3fde-4cb5-9eed-5db6217e5ca5}" Name="Protokollliegtvor" /><FieldRef ID="{73cc1a78-840c-4bc5-8fc7-ba67c59eaf08}" Name="VorsitzVerteidigung" /><FieldRef ID="{a7454020-2707-4645-8596-0cf25246290c}" Name="Raum" /><FieldRef ID="{5df03d83-b60b-4b00-ab63-39b1fc9b5723}" Name="Abgabedatum" /></FieldRefs></ContentType><ContentType ID="0x0100d1788736c98646c49f1b0abe3bd50bb9" Name="ListFieldsContentType">
         <FieldRefs>
 
 
@@ -21,32 +24,29 @@
 
 
 
-          <FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" />
-          <FieldRef ID="{924fe570-b882-4756-9b1f-b0d8b20c142e}" Name="wunschbetreuer" />
-          <FieldRef ID="{f45d21a5-50f0-4c3c-a2d8-b7640c1c2c0d}" Name="kurzbeschreibung" />
-          <FieldRef ID="{37aead8c-b9d0-40ee-9840-f9a547e3a203}" Name="ausgabedatum_x0028_wunsch_x0029_" />
-          <FieldRef ID="{e7483c10-296e-4db7-85af-c6a0944c6e6d}" Name="abgabedatum" />
-          <FieldRef ID="{a9550c53-4149-41da-b8ab-7fc5b584d117}" Name="_x00f6_ffentlich_x003f_" />
-          <FieldRef ID="{376f9451-d016-46c8-a94a-8b54258525e9}" Name="Voraussetzungenerf_x00fc_llt" />
-          <FieldRef ID="{b42b1c72-cd89-41b3-a9a5-5d99f0022210}" Name="Zweitgutachter" />
-          <FieldRef ID="{8C66E340-0985-4d68-AF03-3050ECE4862B}" Name="HomeAddressStreet" />
-          <FieldRef ID="{C0E4B4C6-6245-4846-8561-B8C6C01FEFC1}" Name="HomeAddressPostalCode" />
-          <FieldRef ID="{5AEABC56-57C6-4861-BC12-BD72C30FC6BD}" Name="HomeAddressCity" />
-          <FieldRef ID="{038D1503-4629-40f6-ADAF-B47D1AB2D4FE}" Name="Company" />
-          <FieldRef ID="{dd68a28f-b6fc-4ffe-9d59-cd0e7f19d449}" Name="Firmenanschrift" />
-          <FieldRef ID="{bec162fa-cbb0-4d66-90ca-e6f1636e493f}" Name="Ansprechpartner" />
-          <FieldRef ID="{4c5fe4f4-dcaa-467d-9485-da1573f31ee8}" Name="date" />
-          <FieldRef ID="{bd765637-9bc9-4f1b-9a91-e7bef14113e0}" Name="Status" />
-          <FieldRef ID="{edce8ce5-e1d9-4f9d-be8f-4b16b6d4e48b}" Name="betreut" />
-          <FieldRef ID="{b9f671ab-3fde-4cb5-9eed-5db6217e5ca5}" Name="Protokollliegtvor" />
-          <FieldRef ID="{73cc1a78-840c-4bc5-8fc7-ba67c59eaf08}" Name="VorsitzVerteidigung" />
-        </FieldRefs>
-      </ContentType>
-      <ContentTypeRef ID="0x01">
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        <FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" /><FieldRef ID="{924fe570-b882-4756-9b1f-b0d8b20c142e}" Name="wunschbetreuer" /><FieldRef ID="{f45d21a5-50f0-4c3c-a2d8-b7640c1c2c0d}" Name="kurzbeschreibung" /><FieldRef ID="{37aead8c-b9d0-40ee-9840-f9a547e3a203}" Name="ausgabedatum_x0028_wunsch_x0029_" /><FieldRef ID="{e7483c10-296e-4db7-85af-c6a0944c6e6d}" Name="abgabedatum" /><FieldRef ID="{a9550c53-4149-41da-b8ab-7fc5b584d117}" Name="_x00f6_ffentlich_x003f_" /><FieldRef ID="{376f9451-d016-46c8-a94a-8b54258525e9}" Name="Voraussetzungenerf_x00fc_llt" /><FieldRef ID="{b42b1c72-cd89-41b3-a9a5-5d99f0022210}" Name="Zweitgutachter" /><FieldRef ID="{8C66E340-0985-4d68-AF03-3050ECE4862B}" Name="HomeAddressStreet" /><FieldRef ID="{C0E4B4C6-6245-4846-8561-B8C6C01FEFC1}" Name="HomeAddressPostalCode" /><FieldRef ID="{5AEABC56-57C6-4861-BC12-BD72C30FC6BD}" Name="HomeAddressCity" /><FieldRef ID="{038D1503-4629-40f6-ADAF-B47D1AB2D4FE}" Name="Company" /><FieldRef ID="{dd68a28f-b6fc-4ffe-9d59-cd0e7f19d449}" Name="Firmenanschrift" /><FieldRef ID="{bec162fa-cbb0-4d66-90ca-e6f1636e493f}" Name="Ansprechpartner" /><FieldRef ID="{4c5fe4f4-dcaa-467d-9485-da1573f31ee8}" Name="date" /><FieldRef ID="{bd765637-9bc9-4f1b-9a91-e7bef14113e0}" Name="Status" /><FieldRef ID="{edce8ce5-e1d9-4f9d-be8f-4b16b6d4e48b}" Name="betreut" /><FieldRef ID="{b9f671ab-3fde-4cb5-9eed-5db6217e5ca5}" Name="Protokollliegtvor" /><FieldRef ID="{73cc1a78-840c-4bc5-8fc7-ba67c59eaf08}" Name="VorsitzVerteidigung" /></FieldRefs>
+      </ContentType><ContentTypeRef ID="0x01">
         <Folder TargetName="Item" />
-      </ContentTypeRef>
-      <ContentTypeRef ID="0x0120" />
-    </ContentTypes>
+      </ContentTypeRef><ContentTypeRef ID="0x0120" /></ContentTypes>
     <Fields>
 
 
@@ -63,88 +63,88 @@
 
 
 
-      <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" />
-      <Field Name="wunschbetreuer" ID="{924fe570-b882-4756-9b1f-b0d8b20c142e}" DisplayName="wunschbetreuer" Type="User" UserSelectionMode="PeopleOnly" UserSelectionScope="16" />
-      <Field Name="kurzbeschreibung" ID="{f45d21a5-50f0-4c3c-a2d8-b7640c1c2c0d}" DisplayName="kurzbeschreibung" Type="Note" />
-      <Field Name="ausgabedatum_x0028_wunsch_x0029_" ID="{37aead8c-b9d0-40ee-9840-f9a547e3a203}" DisplayName="ausgabedatum (wunsch)" Type="DateTime" Format="DateOnly" />
-      <Field Name="abgabedatum" ID="{e7483c10-296e-4db7-85af-c6a0944c6e6d}" DisplayName="abgabedatum" Type="DateTime" ShowInEditForm="FALSE" Format="DateOnly" />
-      <Field Name="_x00f6_ffentlich_x003f_" ID="{a9550c53-4149-41da-b8ab-7fc5b584d117}" DisplayName="öffentlich?" Type="Boolean" ShowInEditForm="FALSE" />
-      <Field Name="Voraussetzungenerf_x00fc_llt" ID="{376f9451-d016-46c8-a94a-8b54258525e9}" DisplayName="Voraussetzungen erfüllt" Type="Boolean" ShowInEditForm="FALSE" />
-      <Field Name="Zweitgutachter" ID="{b42b1c72-cd89-41b3-a9a5-5d99f0022210}" DisplayName="Zweitgutachter" Type="Text" ShowInEditForm="FALSE" />
-      <Field ID="{8C66E340-0985-4d68-AF03-3050ECE4862B}" Name="HomeAddressStreet" StaticName="HomeAddressStreet" SourceID="http://schemas.microsoft.com/sharepoint/v3" DisplayName="$Resources:core,Home_Address_Street_OL;" Group="$Resources:core,Person_Event_Columns;" Type="Text" Sealed="TRUE" AllowDeletion="TRUE" />
-      <Field ID="{C0E4B4C6-6245-4846-8561-B8C6C01FEFC1}" Name="HomeAddressPostalCode" StaticName="HomeAddressPostalCode" SourceID="http://schemas.microsoft.com/sharepoint/v3" DisplayName="$Resources:core,Home_Address_Postal_Code_OL;" Group="$Resources:core,Person_Event_Columns;" Type="Text" Sealed="TRUE" AllowDeletion="TRUE" IMEMode="inactive" />
-      <Field ID="{5AEABC56-57C6-4861-BC12-BD72C30FC6BD}" Name="HomeAddressCity" StaticName="HomeAddressCity" SourceID="http://schemas.microsoft.com/sharepoint/v3" DisplayName="$Resources:core,Home_Address_City_OL;" Group="$Resources:core,Person_Event_Columns;" Type="Text" Sealed="TRUE" AllowDeletion="TRUE" />
-      <Field ID="{038D1503-4629-40f6-ADAF-B47D1AB2D4FE}" Name="Company" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Company" Group="$Resources:core,Person_Event_Columns;" DisplayName="$Resources:core,Company;" Type="Text" />
-      <Field Name="Firmenanschrift" ID="{dd68a28f-b6fc-4ffe-9d59-cd0e7f19d449}" DisplayName="Firmenanschrift" Type="Note" />
-      <Field Name="Ansprechpartner" ID="{bec162fa-cbb0-4d66-90ca-e6f1636e493f}" DisplayName="Ansprechpartner" Type="Text" />
-      <Field Name="date" ID="{4c5fe4f4-dcaa-467d-9485-da1573f31ee8}" DisplayName="date" Type="Text" ShowInEditForm="FALSE" />
-      <Field Name="Status" ID="{bd765637-9bc9-4f1b-9a91-e7bef14113e0}" DisplayName="Status" Type="Choice" />
-      <Field Name="betreut" ID="{edce8ce5-e1d9-4f9d-be8f-4b16b6d4e48b}" DisplayName="betreut" Type="Boolean" />
-      <Field Name="Protokollliegtvor" ID="{b9f671ab-3fde-4cb5-9eed-5db6217e5ca5}" DisplayName="Protokoll liegt vor" Type="Boolean" />
-      <Field Name="VorsitzVerteidigung" ID="{73cc1a78-840c-4bc5-8fc7-ba67c59eaf08}" DisplayName="Vorsitz Verteidigung" Type="User" />
-    </Fields>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" /><Field Name="wunschbetreuer" ID="{924fe570-b882-4756-9b1f-b0d8b20c142e}" DisplayName="wunschbetreuer" Type="User" UserSelectionMode="PeopleOnly" UserSelectionScope="16" /><Field Name="kurzbeschreibung" ID="{f45d21a5-50f0-4c3c-a2d8-b7640c1c2c0d}" DisplayName="kurzbeschreibung" Type="Note" /><Field Name="ausgabedatum_x0028_wunsch_x0029_" ID="{37aead8c-b9d0-40ee-9840-f9a547e3a203}" DisplayName="ausgabedatum (wunsch)" Type="DateTime" Format="DateOnly" /><Field Name="abgabedatum" ID="{e7483c10-296e-4db7-85af-c6a0944c6e6d}" DisplayName="abgabedatum" Type="DateTime" ShowInEditForm="FALSE" Format="DateOnly" /><Field Name="_x00f6_ffentlich_x003f_" ID="{a9550c53-4149-41da-b8ab-7fc5b584d117}" DisplayName="öffentlich?" Type="Boolean" ShowInEditForm="FALSE" /><Field Name="Voraussetzungenerf_x00fc_llt" ID="{376f9451-d016-46c8-a94a-8b54258525e9}" DisplayName="Voraussetzungen erfüllt" Type="Boolean" ShowInEditForm="FALSE" /><Field Name="Zweitgutachter" ID="{b42b1c72-cd89-41b3-a9a5-5d99f0022210}" DisplayName="Zweitgutachter" Type="Text" ShowInEditForm="FALSE" /><Field ID="{8C66E340-0985-4d68-AF03-3050ECE4862B}" Name="HomeAddressStreet" StaticName="HomeAddressStreet" SourceID="http://schemas.microsoft.com/sharepoint/v3" DisplayName="$Resources:core,Home_Address_Street_OL;" Group="$Resources:core,Person_Event_Columns;" Type="Text" Sealed="TRUE" AllowDeletion="TRUE" /><Field ID="{C0E4B4C6-6245-4846-8561-B8C6C01FEFC1}" Name="HomeAddressPostalCode" StaticName="HomeAddressPostalCode" SourceID="http://schemas.microsoft.com/sharepoint/v3" DisplayName="$Resources:core,Home_Address_Postal_Code_OL;" Group="$Resources:core,Person_Event_Columns;" Type="Text" Sealed="TRUE" AllowDeletion="TRUE" IMEMode="inactive" /><Field ID="{5AEABC56-57C6-4861-BC12-BD72C30FC6BD}" Name="HomeAddressCity" StaticName="HomeAddressCity" SourceID="http://schemas.microsoft.com/sharepoint/v3" DisplayName="$Resources:core,Home_Address_City_OL;" Group="$Resources:core,Person_Event_Columns;" Type="Text" Sealed="TRUE" AllowDeletion="TRUE" /><Field ID="{038D1503-4629-40f6-ADAF-B47D1AB2D4FE}" Name="Company" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Company" Group="$Resources:core,Person_Event_Columns;" DisplayName="$Resources:core,Company;" Type="Text" /><Field Name="Firmenanschrift" ID="{dd68a28f-b6fc-4ffe-9d59-cd0e7f19d449}" DisplayName="Firmenanschrift" Type="Note" /><Field Name="Ansprechpartner" ID="{bec162fa-cbb0-4d66-90ca-e6f1636e493f}" DisplayName="Ansprechpartner" Type="Text" /><Field Name="date" ID="{4c5fe4f4-dcaa-467d-9485-da1573f31ee8}" DisplayName="date" Type="Text" ShowInEditForm="FALSE" /><Field Name="Status" ID="{bd765637-9bc9-4f1b-9a91-e7bef14113e0}" DisplayName="Status" Type="Choice" /><Field Name="betreut" ID="{edce8ce5-e1d9-4f9d-be8f-4b16b6d4e48b}" DisplayName="betreut" Type="Boolean" /><Field Name="Protokollliegtvor" ID="{b9f671ab-3fde-4cb5-9eed-5db6217e5ca5}" DisplayName="Protokoll liegt vor" Type="Boolean" /><Field Name="VorsitzVerteidigung" ID="{73cc1a78-840c-4bc5-8fc7-ba67c59eaf08}" DisplayName="Vorsitz Verteidigung" Type="Text" /><Field Name="Raum" ID="{a7454020-2707-4645-8596-0cf25246290c}" DisplayName="Raum" Type="Text" /><Field Name="Abgabedatum" ID="{5df03d83-b60b-4b00-ab63-39b1fc9b5723}" DisplayName="Abgabedatum" Type="DateTime" Format="DateOnly" /></Fields>
     <Views>
 
 
-      <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
         <Toolbar Type="Standard" />
         <XslLink Default="TRUE">main.xsl</XslLink>
         <RowLimit Paged="TRUE">30</RowLimit>
         <ViewFields>
 
-          <FieldRef Name="LinkTitleNoMenu"></FieldRef>
-        </ViewFields>
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef></ViewFields>
         <Query>
           <OrderBy>
 
-            <FieldRef Name="Modified" Ascending="FALSE"></FieldRef>
-          </OrderBy>
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
         </Query>
         <ParameterBindings>
           <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
           <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
           <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
         </ParameterBindings>
-      </View>
-      <View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
         <Toolbar Type="Standard" />
         <XslLink Default="TRUE">main.xsl</XslLink>
         <JSLink>clienttemplates.js</JSLink>
         <RowLimit Paged="TRUE">30</RowLimit>
         <ViewFields>
 
-          <FieldRef Name="LinkTitle"></FieldRef>
-          <FieldRef Name="wunschbetreuer" />
-          <FieldRef Name="kurzbeschreibung" />
-          <FieldRef Name="ausgabedatum_x0028_wunsch_x0029_" />
-          <FieldRef Name="abgabedatum" />
-          <FieldRef Name="_x00f6_ffentlich_x003f_" />
-          <FieldRef Name="Voraussetzungenerf_x00fc_llt" />
-          <FieldRef Name="Zweitgutachter" />
-          <FieldRef Name="HomeAddressStreet" />
-          <FieldRef Name="HomeAddressPostalCode" />
-          <FieldRef Name="HomeAddressCity" />
-          <FieldRef Name="Company" />
-          <FieldRef Name="Firmenanschrift" />
-          <FieldRef Name="Ansprechpartner" />
-          <FieldRef Name="date" />
-          <FieldRef Name="Status" />
-          <FieldRef Name="betreut" />
-          <FieldRef Name="Protokollliegtvor" />
-          <FieldRef Name="VorsitzVerteidigung" />
-        </ViewFields>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        <FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="wunschbetreuer" /><FieldRef Name="kurzbeschreibung" /><FieldRef Name="ausgabedatum_x0028_wunsch_x0029_" /><FieldRef Name="abgabedatum" /><FieldRef Name="_x00f6_ffentlich_x003f_" /><FieldRef Name="Voraussetzungenerf_x00fc_llt" /><FieldRef Name="Zweitgutachter" /><FieldRef Name="HomeAddressStreet" /><FieldRef Name="HomeAddressPostalCode" /><FieldRef Name="HomeAddressCity" /><FieldRef Name="Company" /><FieldRef Name="Firmenanschrift" /><FieldRef Name="Ansprechpartner" /><FieldRef Name="date" /><FieldRef Name="Status" /><FieldRef Name="betreut" /><FieldRef Name="Protokollliegtvor" /><FieldRef Name="VorsitzVerteidigung" /><FieldRef Name="Raum" /><FieldRef Name="Abgabedatum" /></ViewFields>
         <Query>
           <OrderBy>
 
-            <FieldRef Name="ID"></FieldRef>
-          </OrderBy>
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
         </Query>
         <ParameterBindings>
           <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
           <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
         </ParameterBindings>
-      </View>
-    </Views>
+      </View></Views>
     <Forms>
       <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
       <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
